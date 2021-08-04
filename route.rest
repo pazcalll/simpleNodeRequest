@@ -1,0 +1,31 @@
+###
+
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6106820c4c17bd4c7878c574
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "pen",
+    "subscribedToChannel": "Distribution"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6106820c4c17bd4c7878c574
+
+###
+
+PATCH http://localhost:3000/subscribers/6106811550b8e03504856132
+Content-Type: application/json
+
+{
+    "name": "Monster",
+    "subscribedToChannel": "Distribution"
+}
